@@ -1,0 +1,5 @@
+BlockingQueue merupakan turunan dari Queue, dari namanya kita tahu bahwa ini adalah collection dengan tipe antrian,
+yang membedakan sifat dari BlockingQueue adalah dia aman diakses oleh beberapa thread, baik itu yang memasukkan data, atau mengambil data
+BlockingQueue mendukung method wait ketika mengambil data, dan juga wait ketika menyimpan data
+Jika queue kosong, thread yang mengambil data akan diminta untuk menunggu sampai data ada
+Dan jika queue penuh, thread yang mengambil data akan diminta untuk menunggu sampai ada tempat kosong
